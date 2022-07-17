@@ -22,6 +22,6 @@ func main() {
 		fmt.Println(i, buah[i])
 	}
 
-	//print with slice array
+	//print with slice array  tes
 	fmt.Println("slice array ", buah[0:2])
 }
