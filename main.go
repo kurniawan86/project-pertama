@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
+	var avg = calculate(2, 3, 4)
+	fmt.Println("average ", avg)
+
 	fmt.Println("hello world")
 
 	var firstname string = "kurniawan"
